@@ -8,6 +8,9 @@ cache_dir = "./.cache"
 # [contracts.kuerten]
 # path = "contracts/kuerten.clar"
 
+[[project.requirements]]
+contract_id = 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard'
+
 [repl.analysis]
 passes = ["check_checker"]
 
